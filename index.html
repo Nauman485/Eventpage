@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <section class="container">
+            <section class="logo">
+                <h1><i>Event-Page</i></h1>
+            </section>
+
+            <section class="menu" id="menu">
+                <ul>
+                    <i class="fa fa-window-close" onclick="closeMenu()"></i>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Events</li></a>
+                    <a href="#"><li>Contacts</li></a>
+                    <input type="button" class="btn" value="Login"/>
+                    <input type="button" class="btn" value="Signup"/>
+                </ul>
+            </section>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </section>
+    </header>
+    <main>
+        <section class="main">
+            <section class="image">
+              <h1><i>Schedule Event</i></h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum et amet facere inventore! Cupiditate fdgf.<br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quo nulla molestiae debitis in excepturi?<br>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias saepe dolores corporis quibusdam quas dolore.<br>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum perspiciatis iste corrupti illo, consequatur nam?<br>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolorem dolor quo rem, aut expedita.</p>
+            </section>
+           <section class="eventsec">
+            <table class="event">
+            <tr>
+                <td><img src="image/event3.jpeg"/>
+                   <h3>Dancing</h3>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero reprehenderit consequatur repellat quas, sunt nulla.</p>
+                </td>
+                <td><img src="image/event4.jpeg"/>
+                   <h3>Singing</h3>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero reprehenderit consequatur repellat quas, sunt nulla.</p>
+                </td>
+                <td><img src="image/event5.jpeg"/>
+                   <h3>Hide-Identity(Masking)</h3>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero reprehenderit consequatur repellat quas, sunt nulla.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="image/evevt2.jpeg"/>
+                   <h3>Modeling</h3>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero reprehenderit consequatur repellat quas, sunt nulla.</p>
+                </td>
+                <td><img src="image/evevt7.jpeg"/>
+                   <h3>Colouring</h3>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero reprehenderit consequatur repellat quas, sunt nulla.</p>
+                </td>
+                <td><img src="image/back.jpeg"/>
+                   <h3>Lighting</h3>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero reprehenderit consequatur repellat quas, sunt nulla.</p>
+                </td>
+            </tr>
+            </table>
+            </section>
+</Section>
+    <footer>
+        <section>
+            <h2><a href="#"><i class="fab fa-facebook"></i></a></h2>
+            <h2><a href="#"><i class="fab fa-instagram"></i></a></h2>
+            <h2><a href="#"><i class="fab fa-twitter"></i></a></h2>
+            <h2><a href="#"><i class="fab fa-whatsapp"></i></a></h2>
+        </section>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, neque cupiditate quidem tenetur saepe iusto delectus recusandae quis. Suscipit laboriosam ea accusantium sunt error maiores sed amet quasi nesciunt laudantium, ipsum id, ipsa eveniet nulla nostrum illum iste, tenetur fuga modi mollitia eum quis veniam provident. Magnam obcaecati enim sit.</p>
+        </section>
+        <section>
+            <h4>Reserved & copyright &copy by Nauman-Ansari</h4>
+        </section>
+    </footer>
+    <script>
+        var show=document.getElementById("menu");
+        function showMenu(){
+            show.style.right="0";
+        }
+        function closeMenu(){
+            show.style.right="-150px";
+        }
+        
+    </script>
+</body>
+</html>

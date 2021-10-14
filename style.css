@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 50px;
+    background: black;
+    display: flex;
+}
+.logo{
+    width: 30%;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu{
+    width: 70%;
+    margin-top: 15px;
+}
+.menu ul a li{
+    display: inline;
+}
+.menu ul a:hover{
+    color: rgb(233, 60, 7);
+}
+.menu ul a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+
+}
+.btn{
+    float: right;
+    background-color: teal;
+    margin-right: 50px;
+    color: white;
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    background-image: url(image/back1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.image h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.image p{
+    text-align: center;
+    margin-top: 20px;
+}
+.eventsec{
+    width: 100%; 
+}
+.event td{
+    padding-top: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.event td img{
+    width: 300px;
+    height: 250px;
+    border-radius: 5%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+}
+
+ footer section h2{
+     display: inline-block;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ footer section p{
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ @media (max-width:700px){
+     .menu ul a li{
+         display: none;
+     }
+     .fa-bars{
+        display: block;
+        margin-top: 15px;
+        margin-right: 20px;
+        color: white;
+        cursor: pointer;
+   }
+     .image h1{
+         font-size: 30px;
+     }
+    .event td {
+        display: block;
+        width: 100%;
+    }
+    .menu{
+        height: 100vh;
+        width: 150px;
+        background: black;
+        top: 0;
+        right: 0;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+    }
+    .menu .fa-window-close{
+        display: block;
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .menu ul a li{
+        display: block;
+        margin-left: 10px;
+    }
+    .btn{
+        margin-top: 10px;
+        float: none;
+        margin-left: 10px;
+    }
+ }
